@@ -1,0 +1,21 @@
+@import "./normalize.css";
+
+html{
+  --color-text:#666;
+  --color-high-text:#ff5777;
+  --color-tint:#ff8198;
+  --color-background:#fff;
+  --font-size:14px;
+}
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
+  width:100%;
+  color:var(--color-text);
+  background-color: var(--color-background);
+}
